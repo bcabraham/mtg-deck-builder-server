@@ -1,0 +1,11 @@
+{
+  "name": "deck-builder-app",
+  "version": "1.0.0",
+  "description": "An app to build, test, and share decks built with Magic the Gathering trading cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryan Abraham",
+  "license": "MIT"
+}
