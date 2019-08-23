@@ -1,5 +1,5 @@
 {
-  "name": "deck-builder-app",
+  "name": "mtg-deck-builder-server",
   "version": "1.0.0",
   "description": "An app to build, test, and share decks built with Magic the Gathering trading cards",
   "main": "./src",
