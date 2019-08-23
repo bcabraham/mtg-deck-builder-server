@@ -8,6 +8,13 @@
     "test": "jest",
     "dev": "nodemon -i \"*.test.js\" -i \"playground/\" ./src"
   },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/playground/"
+    ]
+  },
   "author": "Bryan Abraham",
   "license": "MIT",
   "devDependencies": {
