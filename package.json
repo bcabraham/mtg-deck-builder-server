@@ -2,10 +2,27 @@
   "name": "deck-builder-app",
   "version": "1.0.0",
   "description": "An app to build, test, and share decks built with Magic the Gathering trading cards",
-  "main": "index.js",
+  "main": "./src",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "semistandard ./src",
+    "test": "jest",
+    "dev": "nodemon -i \"*.test.js\" -i \"playground/\" ./src"
   },
   "author": "Bryan Abraham",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1",
+    "semistandard": "^14.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "mongoose": "^5.6.10",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  }
 }
